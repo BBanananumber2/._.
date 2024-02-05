@@ -1,0 +1,14 @@
+import random
+da_list = []
+for i in range(500):
+    x = random.randint(1, 100)
+    da_list.append(x)
+    
+    
+for i in range(500):
+    if da_list[i] == 42:
+        print("I found the meaning of life!")
+        exit(0)
+ 
+
+print("I did not find the meaning of life!")
