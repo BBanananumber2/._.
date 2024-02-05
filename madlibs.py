@@ -1,1 +1,27 @@
+words = []
+question = ""
 
+question = input("Enter a noun:")
+words.append(question)
+question = input("Enter an adjective:")
+words.append(question)
+question = input("Enter an adjective:")
+words.append(question)
+question = input("Enter an adverb:")
+words.append(question)
+question = input("Enter a adjective:")
+words.append(question)
+question = input("Enter a noun (plural):")
+words.append(question)
+question = input("Enter a verb:")
+words.append(question)
+question = input("Enter a quote:")
+words.append(question)
+question = input("Enter a noun:")
+words.append(question)
+question = input("Enter an adverb:")
+words.append(question)
+question = input("Enter an adjective:")
+words.append(question)
+
+print(f"{words[0]} tastes {words[1]} and {words[2]}. Sooo...I just {words[3]}-{words[4]} on it. Let me give you my other opinions. I think {words[5]} should {words[6]}. Because..... {words[7]}. That was {words[8]}-{words[9]}.")
